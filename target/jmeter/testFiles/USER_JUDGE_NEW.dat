@@ -1,0 +1,5 @@
+﻿c001;通过性测试;12.1;判断新老用户;H;/wxtapp/handle;POST;正确参数校验-旧用户;{"body":{"loginMobile":"18358167702"},"head":{"bizcode":"USER_JUDGE_NEW","device":"android","gmt_created":"${date}","type":"REQUEST"}};"user_type":"OLD_USER"
+c002;通过性测试;12.1;判断新老用户;H;/wxtapp/handle;POST;正确参数校验-新用户;{"body":{"loginMobile":"17855445644"},"head":{"bizcode":"USER_JUDGE_NEW","device":"android","gmt_created":"${date}","type":"REQUEST"}};"user_type":"NEW_USER"
+c003;通过性测试;12.1;判断新老用户;H;/wxtapp/handle;POST;正确参数校验-手机号格式错误;{"body":{"loginMobile":"21856"},"head":{"bizcode":"USER_JUDGE_NEW","device":"android","gmt_created":"${date}","type":"REQUEST"}};"resultcode":"200003"
+c004;异常性测试;12.1;判断新老用户;H;/wxtapp/handle;POST;正确参数校验-缺少参数:手机号;{"body":{},"head":{"bizcode":"USER_JUDGE_NEW","device":"android","gmt_created":"${date}","type":"REQUEST"}};"resultcode":"200002"
+c005;异常性测试;12.1;判断新老用户;H;/wxtapp/handle;POST;正确参数校验-请求参数为空;{"head":{"bizcode":"USER_JUDGE_NEW","device":"android","gmt_created":"${date}","type":"REQUEST"}};"resultcode":"200001"
