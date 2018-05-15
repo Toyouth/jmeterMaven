@@ -1,5 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="615" it="0" lt="615" ct="564" ts="1526107098612" s="true" lb="HTTP请求" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="3482" sby="200" ng="1" na="1"/>
+<httpSample t="412" it="0" lt="412" ct="386" ts="1526386253844" s="true" lb="HTTP请求" rc="200" rm="OK" tn="线程组 1-1" dt="text" de="utf-8" by="3482" sby="200" sc="1" ec="0" ng="1" na="1" hn="WRVTDCYHTN11Z3Q">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: max-age=86400
+Connection: Keep-Alive
+Content-Length: 2947
+Content-Type: text/html
+Date: Tue, 15 May 2018 12:11:12 GMT
+Etag: &quot;b83-561f239aa5f40&quot;
+Expires: Wed, 16 May 2018 12:11:12 GMT
+Last-Modified: Thu, 04 Jan 2018 12:11:01 GMT
+P3p: CP=&quot; OTI DSP COR IVA OUR IND COM &quot;
+Server: Apache
+Set-Cookie: BAIDUID=1C98BDAF088E6FEC4FA2BCC21158E251:FG=1; expires=Wed, 15-May-19 12:11:12 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1
+Vary: Accept-Encoding,User-Agent
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Length: 0
+Content-Type: text/plain; charset=ISO-8859-1
+Host: www.baidu.com
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_79)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;&#xd;
+&lt;!--STATUS OK--&gt;&#xd;
+&lt;html&gt;&#xd;
+&#xd;
+&lt;head&gt;&#xd;
+    &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=utf-8&quot;&gt;&#xd;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge&quot;&gt;&#xd;
+    &lt;meta content=&quot;always&quot; name=&quot;referrer&quot;&gt;&#xd;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/bdorz/baidu.min.css&quot;&gt;&#xd;
+    &lt;title&gt;百度一下，你就知道&lt;/title&gt;&#xd;
+&lt;/head&gt;&#xd;
+&#xd;
+&lt;body link=&quot;#0000cc&quot;&gt;&#xd;
+    &lt;div id=&quot;wrapper&quot;&gt;&#xd;
+        &lt;div id=&quot;head&quot;&gt;&#xd;
+            &lt;div class=&quot;head_wrapper&quot;&gt;&#xd;
+                &lt;div class=&quot;s_form&quot;&gt;&#xd;
+                    &lt;div class=&quot;s_form_wrapper&quot;&gt;&#xd;
+                        &lt;div id=&quot;lg&quot;&gt;&lt;img hidefocus=true src=&quot;//www.baidu.com/img/bd_logo1.png&quot; width=&quot;270&quot; height=&quot;129&quot;&gt;&lt;/div&gt;&#xd;
+                        &lt;form id=&quot;form&quot; name=&quot;f&quot; action=&quot;//www.baidu.com/s&quot; class=&quot;fm&quot;&gt;&#xd;
+                            &lt;input type=&quot;hidden&quot; name=&quot;ie&quot; value=&quot;utf-8&quot;&gt;&#xd;
+                            &lt;input type=&quot;hidden&quot; name=&quot;f&quot; value=&quot;8&quot;&gt;&#xd;
+                            &lt;input type=&quot;hidden&quot; name=&quot;rsv_bp&quot; value=&quot;1&quot;&gt;&#xd;
+                            &lt;input type=&quot;hidden&quot; name=&quot;rsv_idx&quot; value=&quot;1&quot;&gt;&#xd;
+                            &lt;input type=&quot;hidden&quot; name=&quot;tn&quot; value=&quot;baidu&quot;&gt;&#xd;
+                            &lt;span class=&quot;bg s_ipt_wr&quot;&gt;&lt;input id=&quot;kw&quot; name=&quot;wd&quot; class=&quot;s_ipt&quot; value maxlength=&quot;255&quot; autocomplete=&quot;off&quot; autofocus&gt;&lt;/span&gt;&lt;span class=&quot;bg s_btn_wr&quot;&gt;&lt;input type=&quot;submit&quot; id=&quot;su&quot; value=&quot;百度一下&quot; class=&quot;bg s_btn&quot;&gt;&lt;/span&gt;&#xd;
+                        &lt;/form&gt;&#xd;
+                    &lt;/div&gt;&#xd;
+                &lt;/div&gt;&#xd;
+                &lt;div id=&quot;u1&quot;&gt;&#xd;
+                &lt;a href=&quot;http://news.baidu.com&quot; name=&quot;tj_trnews&quot; class=&quot;mnav&quot;&gt;新闻&lt;/a&gt;&#xd;
+                &lt;a href=&quot;https://www.hao123.com&quot; name=&quot;tj_trhao123&quot; class=&quot;mnav&quot;&gt;hao123&lt;/a&gt;&#xd;
+                &lt;a href=&quot;http://map.baidu.com&quot; name=&quot;tj_trmap&quot; class=&quot;mnav&quot;&gt;地图&lt;/a&gt;&#xd;
+                &lt;a href=&quot;http://v.baidu.com&quot; name=&quot;tj_trvideo&quot; class=&quot;mnav&quot;&gt;视频&lt;/a&gt;&#xd;
+                &lt;a href=&quot;http://tieba.baidu.com&quot; name=&quot;tj_trtieba&quot; class=&quot;mnav&quot;&gt;贴吧&lt;/a&gt;&#xd;
+                &lt;a href=&quot;https://passport.baidu.com/v2/?login&amp;fr=old&amp;login&amp;tpl=mn&quot; name=&quot;tj_login&quot; class=&quot;lb&quot;&gt;登录&lt;/a&gt;&#xd;
+                &lt;a href=&quot;//www.baidu.com/more/&quot; name=&quot;tj_briicon&quot; class=&quot;bri&quot; style=&quot;display: block;&quot;&gt;更多产品&lt;/a&gt;&#xd;
+                &lt;/div&gt;&#xd;
+            &lt;/div&gt;&#xd;
+        &lt;/div&gt;&#xd;
+        &lt;div id=&quot;ftCon&quot;&gt;&#xd;
+            &lt;div id=&quot;ftConw&quot;&gt;&#xd;
+                &lt;p id=&quot;lh&quot;&gt;&lt;a href=&quot;http://home.baidu.com&quot;&gt;关于百度&lt;/a&gt;&lt;a href=&quot;http://ir.baidu.com&quot;&gt;About Baidu&lt;/a&gt;&lt;/p&gt;&#xd;
+                &lt;p id=&quot;cp&quot;&gt;&amp;copy;2018&amp;nbsp;Baidu&amp;nbsp;&lt;a href=&quot;http://www.baidu.com/duty/&quot;&gt;使用百度前必读&lt;/a&gt;&amp;nbsp; &lt;a href=&quot;http://jianyi.baidu.com/&quot; class=&quot;cp-feedback&quot;&gt;意见反馈&lt;/a&gt;&amp;nbsp;京ICP证030173号&amp;nbsp; &lt;img src=&quot;//www.baidu.com/img/gs.gif&quot;&gt; &lt;/p&gt;&#xd;
+            &lt;/div&gt;&#xd;
+        &lt;/div&gt;&#xd;
+    &lt;/div&gt;&#xd;
+&lt;/body&gt;&#xd;
+&lt;!--[if lte IE 9]&gt;&lt;!--&gt;&#xd;
+&lt;script&gt;document.getElementById(&apos;kw&apos;).focus()&lt;/script&gt;&#xd;
+&lt;!--&lt;![endif]--&gt;&#xd;
+&lt;/html&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://www.baidu.com/baidu.html?from=403</java.net.URL>
+</httpSample>
 
 </testResults>

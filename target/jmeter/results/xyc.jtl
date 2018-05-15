@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testResults version="1.2">
-<httpSample t="206" it="0" lt="205" ct="55" ts="1526107101105" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" by="698" sby="686" ng="1" na="1">
+<httpSample t="220" it="0" lt="219" ct="54" ts="1526386255771" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" de="UTF-8" by="661" sby="686" sc="1" ec="0" ng="1" na="1" hn="WRVTDCYHTN11Z3Q">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
@@ -12,8 +12,45 @@
     <error>false</error>
     <failureMessage></failureMessage>
   </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/plain;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 15 May 2018 12:10:37 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+token: ${token}
+Charset: utf-8
+Content-Type: multipart/form-data
+connection: keep-alive
+content-encoding: gzip
+Content-Length: 414
+Host: 61.164.59.232:8087
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_79)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;body&quot;:{&quot;create_time&quot;:&quot;20171102111609&quot;,&quot;login_mobile&quot;:&quot;17682314675&quot;,&quot;login_mobile_show&quot;:&quot;176****4675&quot;,&quot;nick_name&quot;:&quot;176****4675&quot;,&quot;payPwdSign&quot;:&quot;YES&quot;,&quot;smrz_flag&quot;:&quot;YES&quot;,&quot;token&quot;:&quot;67af2249720e460f699eefdcbc3ae370&quot;,&quot;user_id&quot;:&quot;d38f8fb65c154110b336f762ce8874f7&quot;,&quot;user_name&quot;:&quot;喻海洋&quot;,&quot;user_type&quot;:&quot;RZR&quot;},&quot;head&quot;:{&quot;bizcode&quot;:&quot;SYS_LOGIN_APP&quot;,&quot;device&quot;:&quot;android&quot;,&quot;gmt_created&quot;:&quot;2018-05-15 20:10:37&quot;,&quot;resultcode&quot;:&quot;000000&quot;,&quot;resultmsg&quot;:&quot;:登录成功&quot;,&quot;token&quot;:&quot;67af2249720e460f699eefdcbc3ae370&quot;,&quot;type&quot;:&quot;RESPONSE&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;body&quot;: {&#xd;
+        &quot;device_id&quot;: &quot;E3D2BD3A9FD44E0993108B655165A2DC&quot;, &#xd;
+        &quot;flag&quot;: false, &#xd;
+        &quot;ip_address&quot;: &quot;192.168.11.97&quot;, &#xd;
+        &quot;isFirstPay&quot;: false, &#xd;
+        &quot;loginMobile&quot;: &quot;17682314675&quot;, &#xd;
+        &quot;loginPwd&quot;: &quot;123456&quot;&#xd;
+    }, &#xd;
+    &quot;head&quot;: {&#xd;
+        &quot;bizcode&quot;: &quot;SYS_LOGIN_APP&quot;, &#xd;
+        &quot;device&quot;: &quot;android&quot;, &#xd;
+        &quot;gmt_created&quot;: &quot;1526386255317&quot;, &#xd;
+        &quot;type&quot;: &quot;REQUEST&quot;&#xd;
+    }&#xd;
+}</queryString>
+  <java.net.URL>http://61.164.59.232:8087/wxtapp/handle</java.net.URL>
 </httpSample>
-<httpSample t="134" it="0" lt="134" ct="0" ts="1526107101552" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" by="698" sby="686" ng="1" na="1">
+<httpSample t="135" it="0" lt="135" ct="4" ts="1526386256224" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" de="UTF-8" by="698" sby="686" sc="1" ec="0" ng="1" na="1" hn="WRVTDCYHTN11Z3Q">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
@@ -25,8 +62,45 @@
     <error>false</error>
     <failureMessage></failureMessage>
   </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/plain;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 15 May 2018 12:10:37 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+token: ${token}
+Charset: utf-8
+Content-Type: multipart/form-data
+connection: keep-alive
+content-encoding: gzip
+Content-Length: 414
+Host: 61.164.59.232:8087
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_79)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;body&quot;:{&quot;create_time&quot;:&quot;20170531101036&quot;,&quot;login_email&quot;:&quot;wxtyhy_working@163.com&quot;,&quot;login_mobile&quot;:&quot;18358167702&quot;,&quot;login_mobile_show&quot;:&quot;183****7702&quot;,&quot;nick_name&quot;:&quot;喻海洋&quot;,&quot;payPwdSign&quot;:&quot;YES&quot;,&quot;smrz_flag&quot;:&quot;YES&quot;,&quot;token&quot;:&quot;1c8c61fa91020f086a06b73995fbf816&quot;,&quot;user_id&quot;:&quot;19c953dc0e304a5da2dd9ebfbb3de9be&quot;,&quot;user_name&quot;:&quot;喻海洋&quot;,&quot;user_type&quot;:&quot;RZR&quot;},&quot;head&quot;:{&quot;bizcode&quot;:&quot;SYS_LOGIN_APP&quot;,&quot;device&quot;:&quot;android&quot;,&quot;gmt_created&quot;:&quot;2018-05-15 20:10:37&quot;,&quot;resultcode&quot;:&quot;000000&quot;,&quot;resultmsg&quot;:&quot;:登录成功&quot;,&quot;token&quot;:&quot;1c8c61fa91020f086a06b73995fbf816&quot;,&quot;type&quot;:&quot;RESPONSE&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;body&quot;: {&#xd;
+        &quot;device_id&quot;: &quot;9CE21876A6D64CB3A2FD6A74C385CF7A&quot;, &#xd;
+        &quot;flag&quot;: false, &#xd;
+        &quot;ip_address&quot;: &quot;192.168.11.97&quot;, &#xd;
+        &quot;isFirstPay&quot;: false, &#xd;
+        &quot;loginMobile&quot;: &quot;18358167702&quot;, &#xd;
+        &quot;loginPwd&quot;: &quot;123456&quot;&#xd;
+    }, &#xd;
+    &quot;head&quot;: {&#xd;
+        &quot;bizcode&quot;: &quot;SYS_LOGIN_APP&quot;, &#xd;
+        &quot;device&quot;: &quot;android&quot;, &#xd;
+        &quot;gmt_created&quot;: &quot;1526386255317&quot;, &#xd;
+        &quot;type&quot;: &quot;REQUEST&quot;&#xd;
+    }&#xd;
+}</queryString>
+  <java.net.URL>http://61.164.59.232:8087/wxtapp/handle</java.net.URL>
 </httpSample>
-<httpSample t="130" it="0" lt="130" ct="0" ts="1526107102052" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" by="698" sby="686" ng="1" na="1">
+<httpSample t="142" it="0" lt="142" ct="3" ts="1526386256724" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" de="UTF-8" by="659" sby="686" sc="1" ec="0" ng="1" na="1" hn="WRVTDCYHTN11Z3Q">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
@@ -38,8 +112,45 @@
     <error>false</error>
     <failureMessage></failureMessage>
   </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/plain;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 15 May 2018 12:10:37 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+token: ${token}
+Charset: utf-8
+Content-Type: multipart/form-data
+connection: keep-alive
+content-encoding: gzip
+Content-Length: 414
+Host: 61.164.59.232:8087
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_79)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;body&quot;:{&quot;create_time&quot;:&quot;20171031160955&quot;,&quot;login_mobile&quot;:&quot;12345670011&quot;,&quot;login_mobile_show&quot;:&quot;123****0011&quot;,&quot;nick_name&quot;:&quot;仙凡一&quot;,&quot;payPwdSign&quot;:&quot;YES&quot;,&quot;smrz_flag&quot;:&quot;YES&quot;,&quot;token&quot;:&quot;a2d6e710d7cab63b356e320af35dc15e&quot;,&quot;user_id&quot;:&quot;bcf0b7a3cf19436788701ab3c6f4c895&quot;,&quot;user_name&quot;:&quot;仙凡一&quot;,&quot;user_type&quot;:&quot;TZR&quot;},&quot;head&quot;:{&quot;bizcode&quot;:&quot;SYS_LOGIN_APP&quot;,&quot;device&quot;:&quot;android&quot;,&quot;gmt_created&quot;:&quot;2018-05-15 20:10:38&quot;,&quot;resultcode&quot;:&quot;000000&quot;,&quot;resultmsg&quot;:&quot;:登录成功&quot;,&quot;token&quot;:&quot;a2d6e710d7cab63b356e320af35dc15e&quot;,&quot;type&quot;:&quot;RESPONSE&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;body&quot;: {&#xd;
+        &quot;device_id&quot;: &quot;C8036ED5954844379D671AA06DC3E848&quot;, &#xd;
+        &quot;flag&quot;: false, &#xd;
+        &quot;ip_address&quot;: &quot;192.168.11.97&quot;, &#xd;
+        &quot;isFirstPay&quot;: false, &#xd;
+        &quot;loginMobile&quot;: &quot;12345670011&quot;, &#xd;
+        &quot;loginPwd&quot;: &quot;123456&quot;&#xd;
+    }, &#xd;
+    &quot;head&quot;: {&#xd;
+        &quot;bizcode&quot;: &quot;SYS_LOGIN_APP&quot;, &#xd;
+        &quot;device&quot;: &quot;android&quot;, &#xd;
+        &quot;gmt_created&quot;: &quot;1526386255317&quot;, &#xd;
+        &quot;type&quot;: &quot;REQUEST&quot;&#xd;
+    }&#xd;
+}</queryString>
+  <java.net.URL>http://61.164.59.232:8087/wxtapp/handle</java.net.URL>
 </httpSample>
-<httpSample t="133" it="0" lt="133" ct="0" ts="1526107102553" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" by="659" sby="686" ng="1" na="1">
+<httpSample t="132" it="0" lt="132" ct="2" ts="1526386257224" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" de="UTF-8" by="659" sby="686" sc="1" ec="0" ng="1" na="1" hn="WRVTDCYHTN11Z3Q">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
@@ -51,8 +162,45 @@
     <error>false</error>
     <failureMessage></failureMessage>
   </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/plain;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 15 May 2018 12:10:38 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+token: ${token}
+Charset: utf-8
+Content-Type: multipart/form-data
+connection: keep-alive
+content-encoding: gzip
+Content-Length: 414
+Host: 61.164.59.232:8087
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_79)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;body&quot;:{&quot;create_time&quot;:&quot;20171031161044&quot;,&quot;login_mobile&quot;:&quot;12345670012&quot;,&quot;login_mobile_show&quot;:&quot;123****0012&quot;,&quot;nick_name&quot;:&quot;仙凡二&quot;,&quot;payPwdSign&quot;:&quot;YES&quot;,&quot;smrz_flag&quot;:&quot;YES&quot;,&quot;token&quot;:&quot;ec28c2b2f1e7941bda7cc130db892995&quot;,&quot;user_id&quot;:&quot;426319aa4c854f03a31afa7c5ffcf67f&quot;,&quot;user_name&quot;:&quot;仙凡二&quot;,&quot;user_type&quot;:&quot;TZR&quot;},&quot;head&quot;:{&quot;bizcode&quot;:&quot;SYS_LOGIN_APP&quot;,&quot;device&quot;:&quot;android&quot;,&quot;gmt_created&quot;:&quot;2018-05-15 20:10:38&quot;,&quot;resultcode&quot;:&quot;000000&quot;,&quot;resultmsg&quot;:&quot;:登录成功&quot;,&quot;token&quot;:&quot;ec28c2b2f1e7941bda7cc130db892995&quot;,&quot;type&quot;:&quot;RESPONSE&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;body&quot;: {&#xd;
+        &quot;device_id&quot;: &quot;01B68927905D45EBB69CD44483804E0E&quot;, &#xd;
+        &quot;flag&quot;: false, &#xd;
+        &quot;ip_address&quot;: &quot;192.168.11.97&quot;, &#xd;
+        &quot;isFirstPay&quot;: false, &#xd;
+        &quot;loginMobile&quot;: &quot;12345670012&quot;, &#xd;
+        &quot;loginPwd&quot;: &quot;123456&quot;&#xd;
+    }, &#xd;
+    &quot;head&quot;: {&#xd;
+        &quot;bizcode&quot;: &quot;SYS_LOGIN_APP&quot;, &#xd;
+        &quot;device&quot;: &quot;android&quot;, &#xd;
+        &quot;gmt_created&quot;: &quot;1526386255317&quot;, &#xd;
+        &quot;type&quot;: &quot;REQUEST&quot;&#xd;
+    }&#xd;
+}</queryString>
+  <java.net.URL>http://61.164.59.232:8087/wxtapp/handle</java.net.URL>
 </httpSample>
-<httpSample t="157" it="0" lt="157" ct="0" ts="1526107103052" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" by="659" sby="686" ng="1" na="1">
+<httpSample t="140" it="0" lt="140" ct="3" ts="1526386257724" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" de="UTF-8" by="659" sby="686" sc="1" ec="0" ng="1" na="1" hn="WRVTDCYHTN11Z3Q">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
@@ -64,8 +212,45 @@
     <error>false</error>
     <failureMessage></failureMessage>
   </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/plain;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 15 May 2018 12:10:38 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+token: ${token}
+Charset: utf-8
+Content-Type: multipart/form-data
+connection: keep-alive
+content-encoding: gzip
+Content-Length: 414
+Host: 61.164.59.232:8087
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_79)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;body&quot;:{&quot;create_time&quot;:&quot;20171031161211&quot;,&quot;login_mobile&quot;:&quot;12345670014&quot;,&quot;login_mobile_show&quot;:&quot;123****0014&quot;,&quot;nick_name&quot;:&quot;仙凡四&quot;,&quot;payPwdSign&quot;:&quot;YES&quot;,&quot;smrz_flag&quot;:&quot;YES&quot;,&quot;token&quot;:&quot;e3b11d16e8e887dcd2d81e68a471758d&quot;,&quot;user_id&quot;:&quot;ce227d74fef944fba34bcdeedbbe4bbe&quot;,&quot;user_name&quot;:&quot;仙凡四&quot;,&quot;user_type&quot;:&quot;TZR&quot;},&quot;head&quot;:{&quot;bizcode&quot;:&quot;SYS_LOGIN_APP&quot;,&quot;device&quot;:&quot;android&quot;,&quot;gmt_created&quot;:&quot;2018-05-15 20:10:39&quot;,&quot;resultcode&quot;:&quot;000000&quot;,&quot;resultmsg&quot;:&quot;:登录成功&quot;,&quot;token&quot;:&quot;e3b11d16e8e887dcd2d81e68a471758d&quot;,&quot;type&quot;:&quot;RESPONSE&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;body&quot;: {&#xd;
+        &quot;device_id&quot;: &quot;8D53832CA9F3411E8CF3096F0162F9B4&quot;, &#xd;
+        &quot;flag&quot;: false, &#xd;
+        &quot;ip_address&quot;: &quot;192.168.11.97&quot;, &#xd;
+        &quot;isFirstPay&quot;: false, &#xd;
+        &quot;loginMobile&quot;: &quot;12345670014&quot;, &#xd;
+        &quot;loginPwd&quot;: &quot;123456&quot;&#xd;
+    }, &#xd;
+    &quot;head&quot;: {&#xd;
+        &quot;bizcode&quot;: &quot;SYS_LOGIN_APP&quot;, &#xd;
+        &quot;device&quot;: &quot;android&quot;, &#xd;
+        &quot;gmt_created&quot;: &quot;1526386255317&quot;, &#xd;
+        &quot;type&quot;: &quot;REQUEST&quot;&#xd;
+    }&#xd;
+}</queryString>
+  <java.net.URL>http://61.164.59.232:8087/wxtapp/handle</java.net.URL>
 </httpSample>
-<httpSample t="130" it="0" lt="130" ct="2" ts="1526107103552" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" by="659" sby="686" ng="1" na="1">
+<httpSample t="134" it="0" lt="133" ct="2" ts="1526386258224" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" de="UTF-8" by="659" sby="686" sc="1" ec="0" ng="1" na="1" hn="WRVTDCYHTN11Z3Q">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
@@ -77,8 +262,45 @@
     <error>false</error>
     <failureMessage></failureMessage>
   </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/plain;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 15 May 2018 12:10:39 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+token: ${token}
+Charset: utf-8
+Content-Type: multipart/form-data
+connection: keep-alive
+content-encoding: gzip
+Content-Length: 414
+Host: 61.164.59.232:8087
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_79)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;body&quot;:{&quot;create_time&quot;:&quot;20171031161253&quot;,&quot;login_mobile&quot;:&quot;12345670015&quot;,&quot;login_mobile_show&quot;:&quot;123****0015&quot;,&quot;nick_name&quot;:&quot;仙凡五&quot;,&quot;payPwdSign&quot;:&quot;YES&quot;,&quot;smrz_flag&quot;:&quot;YES&quot;,&quot;token&quot;:&quot;74c90bbb1e0c993e26d8289278a2cfa1&quot;,&quot;user_id&quot;:&quot;b2943f3a8e444770b19356c7ba8d3c41&quot;,&quot;user_name&quot;:&quot;仙凡五&quot;,&quot;user_type&quot;:&quot;TZR&quot;},&quot;head&quot;:{&quot;bizcode&quot;:&quot;SYS_LOGIN_APP&quot;,&quot;device&quot;:&quot;android&quot;,&quot;gmt_created&quot;:&quot;2018-05-15 20:10:39&quot;,&quot;resultcode&quot;:&quot;000000&quot;,&quot;resultmsg&quot;:&quot;:登录成功&quot;,&quot;token&quot;:&quot;74c90bbb1e0c993e26d8289278a2cfa1&quot;,&quot;type&quot;:&quot;RESPONSE&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;body&quot;: {&#xd;
+        &quot;device_id&quot;: &quot;485C703395A84DCBB4B5020CE40C609B&quot;, &#xd;
+        &quot;flag&quot;: false, &#xd;
+        &quot;ip_address&quot;: &quot;192.168.11.97&quot;, &#xd;
+        &quot;isFirstPay&quot;: false, &#xd;
+        &quot;loginMobile&quot;: &quot;12345670015&quot;, &#xd;
+        &quot;loginPwd&quot;: &quot;123456&quot;&#xd;
+    }, &#xd;
+    &quot;head&quot;: {&#xd;
+        &quot;bizcode&quot;: &quot;SYS_LOGIN_APP&quot;, &#xd;
+        &quot;device&quot;: &quot;android&quot;, &#xd;
+        &quot;gmt_created&quot;: &quot;1526386255317&quot;, &#xd;
+        &quot;type&quot;: &quot;REQUEST&quot;&#xd;
+    }&#xd;
+}</queryString>
+  <java.net.URL>http://61.164.59.232:8087/wxtapp/handle</java.net.URL>
 </httpSample>
-<httpSample t="209" it="0" lt="209" ct="0" ts="1526107104053" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" by="659" sby="686" ng="1" na="1">
+<httpSample t="176" it="0" lt="176" ct="1" ts="1526386258724" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" de="UTF-8" by="659" sby="686" sc="1" ec="0" ng="1" na="1" hn="WRVTDCYHTN11Z3Q">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
@@ -90,8 +312,45 @@
     <error>false</error>
     <failureMessage></failureMessage>
   </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/plain;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 15 May 2018 12:10:39 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+token: ${token}
+Charset: utf-8
+Content-Type: multipart/form-data
+connection: keep-alive
+content-encoding: gzip
+Content-Length: 414
+Host: 61.164.59.232:8087
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_79)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;body&quot;:{&quot;create_time&quot;:&quot;20171031161253&quot;,&quot;login_mobile&quot;:&quot;12345670015&quot;,&quot;login_mobile_show&quot;:&quot;123****0015&quot;,&quot;nick_name&quot;:&quot;仙凡五&quot;,&quot;payPwdSign&quot;:&quot;YES&quot;,&quot;smrz_flag&quot;:&quot;YES&quot;,&quot;token&quot;:&quot;92eb4b799883b12474d083bb36dd4b8a&quot;,&quot;user_id&quot;:&quot;b2943f3a8e444770b19356c7ba8d3c41&quot;,&quot;user_name&quot;:&quot;仙凡五&quot;,&quot;user_type&quot;:&quot;TZR&quot;},&quot;head&quot;:{&quot;bizcode&quot;:&quot;SYS_LOGIN_APP&quot;,&quot;device&quot;:&quot;android&quot;,&quot;gmt_created&quot;:&quot;2018-05-15 20:10:40&quot;,&quot;resultcode&quot;:&quot;000000&quot;,&quot;resultmsg&quot;:&quot;:登录成功&quot;,&quot;token&quot;:&quot;92eb4b799883b12474d083bb36dd4b8a&quot;,&quot;type&quot;:&quot;RESPONSE&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;body&quot;: {&#xd;
+        &quot;device_id&quot;: &quot;BE3D4A52B088438AB96214B6A3CE349B&quot;, &#xd;
+        &quot;flag&quot;: false, &#xd;
+        &quot;ip_address&quot;: &quot;192.168.11.97&quot;, &#xd;
+        &quot;isFirstPay&quot;: false, &#xd;
+        &quot;loginMobile&quot;: &quot;12345670015&quot;, &#xd;
+        &quot;loginPwd&quot;: &quot;123456&quot;&#xd;
+    }, &#xd;
+    &quot;head&quot;: {&#xd;
+        &quot;bizcode&quot;: &quot;SYS_LOGIN_APP&quot;, &#xd;
+        &quot;device&quot;: &quot;android&quot;, &#xd;
+        &quot;gmt_created&quot;: &quot;1526386255317&quot;, &#xd;
+        &quot;type&quot;: &quot;REQUEST&quot;&#xd;
+    }&#xd;
+}</queryString>
+  <java.net.URL>http://61.164.59.232:8087/wxtapp/handle</java.net.URL>
 </httpSample>
-<httpSample t="129" it="0" lt="129" ct="0" ts="1526107104552" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" by="659" sby="686" ng="1" na="1">
+<httpSample t="138" it="0" lt="138" ct="1" ts="1526386259224" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" de="UTF-8" by="659" sby="686" sc="1" ec="0" ng="1" na="1" hn="WRVTDCYHTN11Z3Q">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
@@ -103,8 +362,45 @@
     <error>false</error>
     <failureMessage></failureMessage>
   </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/plain;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 15 May 2018 12:10:40 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+token: ${token}
+Charset: utf-8
+Content-Type: multipart/form-data
+connection: keep-alive
+content-encoding: gzip
+Content-Length: 414
+Host: 61.164.59.232:8087
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_79)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;body&quot;:{&quot;create_time&quot;:&quot;20171031161341&quot;,&quot;login_mobile&quot;:&quot;12345670016&quot;,&quot;login_mobile_show&quot;:&quot;123****0016&quot;,&quot;nick_name&quot;:&quot;仙凡六&quot;,&quot;payPwdSign&quot;:&quot;YES&quot;,&quot;smrz_flag&quot;:&quot;YES&quot;,&quot;token&quot;:&quot;1d77f2fa7bfd76c3ac5503a12ef9bb53&quot;,&quot;user_id&quot;:&quot;8564535979c94ed590226be49bcb765f&quot;,&quot;user_name&quot;:&quot;仙凡六&quot;,&quot;user_type&quot;:&quot;TZR&quot;},&quot;head&quot;:{&quot;bizcode&quot;:&quot;SYS_LOGIN_APP&quot;,&quot;device&quot;:&quot;android&quot;,&quot;gmt_created&quot;:&quot;2018-05-15 20:10:40&quot;,&quot;resultcode&quot;:&quot;000000&quot;,&quot;resultmsg&quot;:&quot;:登录成功&quot;,&quot;token&quot;:&quot;1d77f2fa7bfd76c3ac5503a12ef9bb53&quot;,&quot;type&quot;:&quot;RESPONSE&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;body&quot;: {&#xd;
+        &quot;device_id&quot;: &quot;1C36B6B539EF427399ED60A706520554&quot;, &#xd;
+        &quot;flag&quot;: false, &#xd;
+        &quot;ip_address&quot;: &quot;192.168.11.97&quot;, &#xd;
+        &quot;isFirstPay&quot;: false, &#xd;
+        &quot;loginMobile&quot;: &quot;12345670016&quot;, &#xd;
+        &quot;loginPwd&quot;: &quot;123456&quot;&#xd;
+    }, &#xd;
+    &quot;head&quot;: {&#xd;
+        &quot;bizcode&quot;: &quot;SYS_LOGIN_APP&quot;, &#xd;
+        &quot;device&quot;: &quot;android&quot;, &#xd;
+        &quot;gmt_created&quot;: &quot;1526386255317&quot;, &#xd;
+        &quot;type&quot;: &quot;REQUEST&quot;&#xd;
+    }&#xd;
+}</queryString>
+  <java.net.URL>http://61.164.59.232:8087/wxtapp/handle</java.net.URL>
 </httpSample>
-<httpSample t="131" it="0" lt="131" ct="0" ts="1526107105052" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" by="659" sby="686" ng="1" na="1">
+<httpSample t="145" it="0" lt="144" ct="3" ts="1526386259724" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" de="UTF-8" by="659" sby="686" sc="1" ec="0" ng="1" na="1" hn="WRVTDCYHTN11Z3Q">
   <assertionResult>
     <name>响应断言</name>
     <failure>false</failure>
@@ -116,58 +412,43 @@
     <error>false</error>
     <failureMessage></failureMessage>
   </assertionResult>
-</httpSample>
-<httpSample t="131" it="0" lt="131" ct="1" ts="1526107105552" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" by="659" sby="686" ng="1" na="1">
-  <assertionResult>
-    <name>响应断言</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-  <assertionResult>
-    <name>BeanShell断言</name>
-    <failure>false</failure>
-    <error>false</error>
-    <failureMessage></failureMessage>
-  </assertionResult>
-</httpSample>
-<httpSample t="129" it="0" lt="129" ct="0" ts="1526107106052" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" by="659" sby="686" ng="1" na="1">
-  <assertionResult>
-    <name>响应断言</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-  <assertionResult>
-    <name>BeanShell断言</name>
-    <failure>false</failure>
-    <error>false</error>
-    <failureMessage></failureMessage>
-  </assertionResult>
-</httpSample>
-<httpSample t="152" it="0" lt="152" ct="0" ts="1526107106553" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" by="659" sby="686" ng="1" na="1">
-  <assertionResult>
-    <name>响应断言</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-  <assertionResult>
-    <name>BeanShell断言</name>
-    <failure>false</failure>
-    <error>false</error>
-    <failureMessage></failureMessage>
-  </assertionResult>
-</httpSample>
-<httpSample t="129" it="0" lt="129" ct="0" ts="1526107107053" s="true" lb="登录" rc="200" rm="OK" tn="登录 1-1" dt="text" by="659" sby="686" ng="1" na="1">
-  <assertionResult>
-    <name>响应断言</name>
-    <failure>false</failure>
-    <error>false</error>
-  </assertionResult>
-  <assertionResult>
-    <name>BeanShell断言</name>
-    <failure>false</failure>
-    <error>false</error>
-    <failureMessage></failureMessage>
-  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/plain;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 15 May 2018 12:10:40 GMT
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+token: ${token}
+Charset: utf-8
+Content-Type: multipart/form-data
+connection: keep-alive
+content-encoding: gzip
+Content-Length: 414
+Host: 61.164.59.232:8087
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_79)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;body&quot;:{&quot;create_time&quot;:&quot;20171031161341&quot;,&quot;login_mobile&quot;:&quot;12345670016&quot;,&quot;login_mobile_show&quot;:&quot;123****0016&quot;,&quot;nick_name&quot;:&quot;仙凡六&quot;,&quot;payPwdSign&quot;:&quot;YES&quot;,&quot;smrz_flag&quot;:&quot;YES&quot;,&quot;token&quot;:&quot;b49b248c75dd2f1e31f5813aea869339&quot;,&quot;user_id&quot;:&quot;8564535979c94ed590226be49bcb765f&quot;,&quot;user_name&quot;:&quot;仙凡六&quot;,&quot;user_type&quot;:&quot;TZR&quot;},&quot;head&quot;:{&quot;bizcode&quot;:&quot;SYS_LOGIN_APP&quot;,&quot;device&quot;:&quot;android&quot;,&quot;gmt_created&quot;:&quot;2018-05-15 20:10:41&quot;,&quot;resultcode&quot;:&quot;000000&quot;,&quot;resultmsg&quot;:&quot;:登录成功&quot;,&quot;token&quot;:&quot;b49b248c75dd2f1e31f5813aea869339&quot;,&quot;type&quot;:&quot;RESPONSE&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;body&quot;: {&#xd;
+        &quot;device_id&quot;: &quot;1082252BA3024FEEAF14B68322313AA4&quot;, &#xd;
+        &quot;flag&quot;: false, &#xd;
+        &quot;ip_address&quot;: &quot;192.168.11.97&quot;, &#xd;
+        &quot;isFirstPay&quot;: false, &#xd;
+        &quot;loginMobile&quot;: &quot;12345670016&quot;, &#xd;
+        &quot;loginPwd&quot;: &quot;123456&quot;&#xd;
+    }, &#xd;
+    &quot;head&quot;: {&#xd;
+        &quot;bizcode&quot;: &quot;SYS_LOGIN_APP&quot;, &#xd;
+        &quot;device&quot;: &quot;android&quot;, &#xd;
+        &quot;gmt_created&quot;: &quot;1526386255317&quot;, &#xd;
+        &quot;type&quot;: &quot;REQUEST&quot;&#xd;
+    }&#xd;
+}</queryString>
+  <java.net.URL>http://61.164.59.232:8087/wxtapp/handle</java.net.URL>
 </httpSample>
 
 </testResults>
