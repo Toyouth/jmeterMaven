@@ -43,7 +43,7 @@
                 <configuration>
                     <resultsFileFormat>xml</resultsFileFormat>
                     <ignoreResultFailures>true</ignoreResultFailures>
-                    <testResultsTimestamp>flase</testResultsTimestamp>
+                    <testResultsTimestamp>false</testResultsTimestamp>
                 </configuration>
                 <executions>
                     <execution>
